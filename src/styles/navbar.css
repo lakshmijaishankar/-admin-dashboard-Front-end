@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-color: #d7dfdf;
+}
+
+.main nav {
+    min-height: 100vh;
+    width:5.1%;
+    background-color: black;
+}
+.main .dashboard{
+    width: 93%;
+}
+
+.main .app .grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    width: 40px;
+    row-gap: 5px;
+    justify-content: center;
+    margin: auto;
+}
+
+.main .app .grid div {
+    height: 12px;
+    width: 12px;
+    background-color: white;
+}
+span{
+    display: block;
+    font-size: 10.8px;
+    margin-top: 5px;
+}
+.main nav div:hover{
+    cursor: pointer;
+   border: 1.1px solid whitesmoke;
+}
+.navbartop{
+    background-color: white;
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+/* .developers {
+    position: sticky;
+    top: 51.3px;
+} */
+.developer .mern,.developer .sql,.developer .front{
+    background-color: white;
+}
+.main a{
+    color: white;
+    text-decoration: none;
+}
+.search input{
+    border: 2px solid cornflowerblue;
+    outline: none;
+}
+

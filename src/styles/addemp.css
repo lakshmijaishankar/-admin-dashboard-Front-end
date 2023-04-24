@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.empform{
+    position: sticky;
+}
+
+.imgemp img{
+    width:95%;
+
+}
+.formemp form div{
+    margin-top:15px;
+    position: relative;
+}
+.formemp form div i{
+    position: absolute;
+    left: 8px;
+    top: 55px;
+    color: #ffc107;
+    font-size: 20px;
+}
+.formemp form div:nth-child(6){
+    width: 80%;
+}
+.formemp form div button{
+    width: 25%;
+}
+.formemp form div input{
+    width: 93%;
+    border:2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 7px 0px 7px 30px;
+    outline: none;
+}
+.formemp form div select{
+    width:48%;
+    border:2px solid cornflowerblue;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.formemp form div select option{
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+.formemp form div span{
+    display: block;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+::-webkit-input-placeholder{
+    font-size:18px;
+    font-family: system-ui;
+
+}
+.formemp form{
+    padding-left:20px;
+}
+.w-85{
+    width: 85%;
+}

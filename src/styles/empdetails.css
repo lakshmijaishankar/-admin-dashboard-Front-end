@@ -1,0 +1,71 @@
+table{
+    background-color: white;
+    margin: auto;
+}
+table thead th{
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    font-weight: 200;
+    padding: 5px;
+}
+table thead,table tbody{
+    border-bottom: 1px solid cornflowerblue;
+}
+table tbody .even{
+    background: linear-gradient(215deg, hsl(328, 100%, 54%,0.45), hsl(240, 100%, 50%,0.45));
+    color: white;
+}
+table tbody .odd{
+    background-color: white;
+    color: black;
+}
+table tbody tr td{
+    font-size: 17px;
+    /* width: 200px; */
+    text-align: center;
+    font-weight: 200;
+    padding:3.2px;
+    text-transform: lowercase;
+}
+table tbody tr td:nth-child(1){
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    padding:3.2px;
+    text-transform: uppercase;
+}
+table tbody tr td:nth-child(2){
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    padding:3.2px;
+    text-transform: lowercase;
+}
+.loding{
+    border-top: 7px solid black;
+    border-right:7px solid white;
+    border-bottom:7px solid transparent;
+    border-left:7px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+}
+table tbody tr td i{
+    cursor: pointer;
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+

@@ -1,0 +1,63 @@
+.leftcontainer {
+    width: 40%;
+}
+
+.adminform form div {
+    margin-top: 13px;
+    /* position: relative; */
+}
+
+.adminform form div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+}
+
+.adminform {
+    display: flex;
+    justify-content: center;
+}
+
+.adminform form div span {
+    display: block;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.adminform form div input {
+    width: 93%;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 7px 0px 7px 35px;
+    outline: none;
+}
+
+.adminform form div i {
+    position: relative;
+    right: 336.5px;
+    top: 1.9px;
+    font-size: 23px;
+    color: #0d6efd;
+}
+
+.adminform form div span:nth-child(4) {
+    display: block;
+    font-size: 15px;
+    font-family: system-ui;
+    font-weight: bolder;
+    margin-top: 8px;
+    color: red;
+}
+
+.adminform form div input[type=submit] {
+    width: 25%;
+    border: 1px solid cornflowerblue;
+    padding: 5px 10px;
+    outline: none;
+    background-color: #0d6efd;
+    border-radius: 0px;
+    color: white;
+    font-weight: 200;
+    margin-right: 30px;
+}
